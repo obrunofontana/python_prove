@@ -29,6 +29,7 @@ elif operation == '*':
 
 
 # Divisão
+
 elif operation == '/':
     print(f'Divisão: {number_1} / {number_2} = {number_1 / number_2}')
 

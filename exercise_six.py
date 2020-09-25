@@ -1,0 +1,15 @@
+arquivo = open('texto.txt', 'a')
+
+frases = list()
+frases.append('Bruno \n')
+frases.append('Fontana & \n')
+frases.append('Geri \n')
+frases.append('Depois \n')
+frases.append('Deputado \n')
+frases.append('Depois \n')
+frases.append('Gevernador Estadual \n')
+frases.append('Depois \n')
+frases.append('Federal \n')
+frases.append('Enfim, Presidente!!! \n')
+
+arquivo.writelines(frases)
